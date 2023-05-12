@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header h1{
+    font-family: Dancing Script;
+    font-size: 3rem;
+}
+header nav{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+footer nav{
+    box-shadow: 0 -.5rem 1rem rgba(0,0,0,.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav i{
+    font-size: 3.5rem;
+    padding: 0.5rem;
+}
+section{
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+nav form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+}
+nav form input{
+    flex-grow: 1;
+    height: 40px;
+}
+nav form button{
+    background: none;
+    color: #6495ED;
+    outline: none;
+    border: none;
+
+}
+nav form button i{
+    font-size: 3rem;
+}

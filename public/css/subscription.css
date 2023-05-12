@@ -1,0 +1,16 @@
+.account{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-block: 2rem;
+    align-items: center;
+}
+.account span{
+    font-size: 1rem;
+}
+.account a{
+    text-decoration: none;
+    background: #6495ED;
+    color: white;
+    padding: 1rem;
+}

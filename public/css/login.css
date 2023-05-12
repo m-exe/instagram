@@ -1,0 +1,67 @@
+
+header{
+    display: block;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header h1{
+    font-family: Dancing Script;
+    font-size: 7rem;
+    width: 100%;
+    text-align: center;
+    margin-block: 1rem;
+}
+header h2{
+    align-self: flex-end;
+    font-weight: 300;
+}
+section{
+    flex-grow: 1;
+}
+footer img{
+    display: block;
+    width: 50px;
+    margin-inline: auto;
+}
+form{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+input[type="email"], input[type="password"],input[type="text"]{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: solid grey 1px;
+    margin-block: 1rem;
+}
+input[type="checkbox"]{
+    display: inline;
+}
+label{
+    display: inline;
+}
+button{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #6495ED;
+    border: none;
+    color: white;
+    padding: 1rem;
+    margin-block: 3rem;
+}
+section p{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+section a{
+    text-decoration: none;
+    color: #6495ED;
+}
